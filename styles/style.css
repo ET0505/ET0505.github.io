@@ -14,15 +14,15 @@ header {
   font-family: Arial; sans-serif;
   color: white;
   text-align: center;
-  background-color: #181818;
+  background-color: #212121;
 }
 
 nav a {
   font-family: Arial; sans-serif;
-  font-size: 16px; 
+  font-size: 32px; 
   color: white;
 }
 
 nav a:hover {
-  color: blue;
+  color: light blue;
 }
