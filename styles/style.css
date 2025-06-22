@@ -1,10 +1,21 @@
 body {
   margin: 0;
   padding: 50;
-  font-family: Arial; sans-serif;
   font-size: 16px;
   colour: white;
   background-color: #212121;
+}
+
+p {
+  font-family: Arial; sans-serif;
+  font-size: 29px;
+  color: white;
+}
+
+h1 {
+  font-family: Arial; sans-serif;
+  font-size: 45px;
+  color: white;
 }
 
 header {
@@ -24,5 +35,5 @@ nav a {
 }
 
 nav a:hover {
-  color: light blue;
+  color: #96c7ee;
 }
