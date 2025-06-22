@@ -1,23 +1,23 @@
 body {
-  background-color: #212121;
+  margin: 0;
+  padding: 10;
   font-family: Arial; sans-serif;
-  margin: 10;
-  padding: 0;
+  background-color: #212121;
 }
 
 header {
   width: 100%;
-  top: 0;
+  padding: 10;
   font-family: Arial; sans-serif;
   color: white;
-  background-color: #0d1117;
   text-align: center;
+  background-color: #181818;
 }
 
 nav a {
   font-family: Arial; sans-serif;
-  font-size: 14px; 
-  color: black;
+  font-size: 16px; 
+  color: white;
 }
 
 nav a:hover {
