@@ -2,18 +2,18 @@ body {
   margin: 0;
   padding: 50px;
   font-size: 16px;
-  colour: white;
+  color: white;
   background-color: #212121;
 }
 
 p {
-  font-family: Arial; sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 24px;
   color: white;
 }
 
 h1 {
-  font-family: Arial; sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 45px;
   color: white;
 }
@@ -22,7 +22,7 @@ header {
   top: 0;
   width: 100%;
   padding: 50;
-  font-family: Arial; sans-serif;
+  font-family: Arial, sans-serif;
   color: white;
   text-align: center;
   background-color: #212121;
@@ -30,7 +30,7 @@ header {
 
 nav a {
   margin: 29px;
-  font-family: Arial; sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 32px;
   text-decoration: none;
   color: white;
@@ -40,22 +40,22 @@ nav a:hover {
   color: #96c7ee;
 }
 
-.projectTitle {
-  font-family: Arial; sans-serif;
+.project-title {
+  font-family: Arial, sans-serif;
   font-size: 32px;
-  colour: white;
+  color: white;
 }
 
 #name{
-  font-family: Arial; sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 75px;
   color: white
 }
 
 #tagline {
-  font-family: Arial; sans-serif;
-  font-size: 24px;
-  colour: white
+  font-family: Arial, sans-serif;
+  font-size: 29px;
+  color: white
 }
 
 .text-right {
@@ -64,4 +64,10 @@ nav a:hover {
 
 .text-left {
   text-align: left;
+}
+
+.tabs {
+  font-family: Arial, sans-serif;
+  font-size: 75px;
+  color: white
 }
