@@ -1,13 +1,16 @@
 body {
   margin: 0;
-  padding: 10;
+  padding: 50;
   font-family: Arial; sans-serif;
+  font-size: 16px;
+  colour: white;
   background-color: #212121;
 }
 
 header {
+  top: 0;
   width: 100%;
-  padding: 10;
+  padding: 50;
   font-family: Arial; sans-serif;
   color: white;
   text-align: center;
