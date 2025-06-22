@@ -45,3 +45,15 @@ nav a:hover {
   font-size: 32px;
   colour: white;
 }
+
+#tagline {
+  font-family: Arial; sans-serif;
+  font-size: 75px;
+  colour: white
+}
+
+#name{
+  font-family: Arial; sans-serif;
+  font-size: 90px;
+  color: white
+}
