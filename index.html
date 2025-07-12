@@ -1,53 +1,149 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
-  <head>
-    <title>Edward Truong's Portfolio</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
+    <head>
+        <title>Edward Truong's Portfolio</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="static/style.css">
+    </head>
 
-  <header>
-      <nav class="text-left">
-        <a href="index.html">Home</a>
-      </nav>
+
+    <header>
+        
+        <div class="nav-bar-container">
+            <div id="nav-bar-left-container">
+                <nav>
+                    <a href="index.html">Home</a>
+                </nav>
+            </div>
+
+            <div id="nav-bar-right-container">
+                <nav>
+                    <a href="#about">About</a>
+                </nav>
+                <nav>    
+                    <a href="#projects">Projects</a>
+                </nav>
+                <nav>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+
+    <body>
+
+        <div id="home"> 
+
+            <h1 id="name">Edward Truong</h1>
+            <p id="tagline">Computer Science Student. Aspiring Frontend Software Engineer.</p>
+
+        </div>
+
+
+        <div class="nav-sections" id="about">
+            
+            <h1 class="tabs">About</h1>
+            <p>Hi! I'm Edward Truong, a Master of Computer Science student passionate about learning software development skills. Currently, I'm building my portfolio and looking for opportunities to grow and contribute to real-world projects.</p>
+            <p>I have hands-on expereince programming in Python, Java, C, and JavaScript, and I'm always looking to learn new languages. I enjoy building projects from the ground up and especially love to experiment and work on the frontend. Check out some of my projects below!</p>
+        
+        </div>
+
+
+        <div class="nav-sections" id="projects">
+
+            <h1 class="tabs">Projects</h1>
+
+            <div class="projects-container">
+                
+                <div class="projects-horizontal-container">
+                    <div class="projects-card" onclick="location.href='https://restaurate-614c59114b94.herokuapp.com/'">
+                        <h1>RestauRate</h1>
+                        <p class="projects-text">
+                            <strong>Python, Flask, SQL, HTML, CSS, JavaScript, SQLite</strong>
+                        </p>
+                        <p class="projects-text">
+                            RestauRate is a web-based application that enables users to generate reviews for restaurants based on the restaurant's name, suburb, city, cuisine, rating, and any comments. Users are also able to view the details of each previous review and pinpoint the location of the restaurant on an interactive map. Administrators can access a dashboard through login, and be able to view analytics and delete user-generated reviews.
+                        </p>
+                        <p class="projects-text">
+                            This personal project was brought to life from my love of trying new places and foods, as well as my passion for developing new technical skills.
+                        </p>
+                        <a href="https://github.com/ET0505/RestauRate"><img src="static/GitHub.png" height="50px"></a>
+                    </div>
+
+                    <div class="projects-card" onclick="location.href='https://fire-app-81d5e62b8231.herokuapp.com/'">
+                        <h1>FIRE</h1>
+                        <p class="projects-text">
+                            <strong>Python, Django, HTML, CSS, JavaScript</strong>
+                        </p>
+                        <p class="projects-text">
+                            FIRE is a web-based application that enables users to calculate their unique timeline of investing to live the FIRE (Financial Independence, Retire Early) lifestyle.
+                        </p>
+                        <p class="projects-text">
+                            This application was developed as a passion project, combining my interests in full-stack development and personal finance. Through my own financial journey, I discovered that setting measurable goals and celebrating the small wins are essential for maintaining motivation and ensuring consistent progress. Inspired by this experience, I developed this tool to visualise my personal timeline and support others to succeed.
+                        </p>
+                        <a href="https://github.com/ET0505/fire"><img src="static/GitHub.png" height="50px"></a>
+                    </div>
+                </div>
+
+                <div class="projects-horizontal-container">
+                    <div class="projects-card">
+                        <h1>Web-based Weather Application</h1>
+                        <p class="projects-text">
+                            <strong>Python, Flask, HTML, CSS, JavsScript</strong>
+                        </p>
+                        <p class="projects-text">
+                            I developed a web-based application that provides real-time weather forecasts for cities world wide. Included live weather graphics and timestamps for an intuitive user experience.
+                        </p>
+                        <p class="projects-text">
+                            Weather data is retrieved using the OpenWeatherMap API and the location is displayed on an interactive map using the Google Maps API.
+                        </p>
+                        <a href="https://github.com/ET0505/weather-app"><img src="static/GitHub.png" height="50px"></a>
+                    </div>
+
+                    <div class="projects-card">
+                        <h1>Blackjack GUI</h1>
+                        <p class="projects-text">
+                            <strong>Python, PySide6</strong>
+                        </p>
+                        <p class="projects-text">
+                            I developed a fully functional Blackjack game, playable through a Graphical User Interface (GUI) using the Python PySide6 library. Game functionalities include the option for the user to hit, stand, and double down.
+                        </p>
+                        <p class="projects-text">
+                            This project encouraged me to implement event-driven programming and to optimise the game for a seamless user experience. 
+                        </p>
+                        <a href="https://github.com/ET0505/blackjack"><img src="static/GitHub.png" height="50px"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="contact">
+            
+            <h1 class="tabs">Contact</h1>
+            
+            <div class="contacts-container">
+                
+                <div class="links-container">
+                    <a href="https://www.linkedin.com/in/edwardtruong3/"><img src="static/LinkedIn.png" height="80px"><a>
+                    <p>https://www.linkedin.com/in/edwardtruong3/</p>
+                </div>
+
+                <div class="links-container">
+                    <a href="https://github.com/ET0505"><img src="static/GitHub.png" height="80px" margin-right="20px"></a>
+                    <p>https://github.com/ET0505</p>
+                </div>
+
+            </div>
+
+        </div>
     
-      <nav class="text-right">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-  </header>
 
-  <body>
-    <div class="home"> 
-      <h1 id="name"><b>Edward Truong</b></h1>
-      <p id="tagline">Computer Science student. Aspiring Frontend Software Engineer.</p>
-    </div>
-
-    <div id="about">
-      <h1>About</h1>
-      <p>Hello! My name is Edward Truong. I'm a current Master of Computer Science student aiming to develop frontend development skills.</p>
-      <p>I have expereince programming with Python, Java, C, and enjoy building projects from the ground up.</p>
-    </div>
-
-    <div id="projects">
-      <h1 class="tabs">Projects</h1>
-      <h1>RestauRate>
-      <a href="https://restaurate-614c59114b94.herokuapp.com/">Link</a>
-      <h1>Fire</h1>
-        <p><a href="https://fire-app-81d5e62b8231.herokuapp.com/">Link</p>
-      <h1 class="project-title">Web-based Weather Application</h1>
-      <h1 class="project-title">Blackjack GUI</h1>
-      
-    </div>
-
-    <div id="contact">
-      <h1>Contact</h1>
-      <a href="https://www.linkedin.com/in/edwardtruong3/">LinkedIn<a>
-      <a href="https://github.com/ET0505">Github</a>
-    </div>
-    
-  </body>
+    </body>
   
 </html>
